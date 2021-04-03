@@ -1,0 +1,48 @@
+.calculator {
+    margin: 10%;
+    height: auto88;
+    width: 150px;
+}
+
+.input {
+   height: 0px;
+}
+
+.output {
+    background-color: black;
+    color: white;
+    height: auto;
+}
+
+.result {
+    padding-top: 5%;
+}
+
+button {
+    background-color: white;
+    justify-self: stretch;
+    border: none;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    /* width: 150px; */
+}
+
+/* first division row */
+
+#delete {
+    background-color: red;
+    color: white;
+}
+
+#equality {
+    width: 50px;
+    border-radius: 3px;
+    font-weight: bolder;
+    background-color: blue;
+    color: white;
+}
