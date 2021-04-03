@@ -16,7 +16,7 @@ const calculatorButtons = [
         name: 'percent',
         symbol: '%',
         formula: '/100',
-        type: 'operator'  
+        type: 'number'  
     },
     {
         name: 'division',
@@ -149,7 +149,7 @@ const createButtons = () => {
 createButtons();
 
 
-//calculating datas...
+//an object holding empty arrays for the storage of our datas...
 const data = {
     operation : [],
     result : []
@@ -238,6 +238,12 @@ input.addEventListener('click', event => {
 const digitCounter = (number) => {
     return number.toString().length;
 };
+
+
+//check if a number is float...
+const isFloat = (number) => {
+    return number % 1 != 0;
+}
 
 
 //format the result given...
