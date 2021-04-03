@@ -149,7 +149,7 @@ const createButtons = () => {
 createButtons();
 
 
-//an object holding empty arrays for the storage of our datas...
+//an object holding empty arrays for the storage of our datas or inputs...
 const data = {
     operation : [],
     result : []
@@ -275,10 +275,3 @@ const formatResult = (result) => {
         return result;
     }
 };
-
-    
-
-
-
-
-
